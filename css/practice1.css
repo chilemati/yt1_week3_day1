@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 120rem;
+  margin: 1rem auto;
+  font-size: 120rem/40;
+  color: blue;
+  padding: 0rem 1em;
+}
+
+h1 {
+  font-size: 1m;
+}
+
+.step1 h3 {
+  font-size: 2rem;
+}
+.step2 h3 {
+  font-size: 0.9em;
+  color: purple;
+}
+
+.section1 {
+  font-size: 2em;
+}
+.section2 {
+  font-size: 3rem;
+}
+
+.section2 .box1 {
+  border: 1px solid red;
+  max-width: fit-content;
+}
+.section2 .box2 {
+  border: 1px solid black;
+  max-width: 13em;
+}
+.section2 .box3 {
+  border: 1px solid black;
+  text-align: center;
+}
+.section2 .box3 img {
+  max-width: 80%;
+  min-height: auto;
+  margin: auto;
+}
+
+nav {
+  min-height: 10vh;
+  border: 1px solid black;
+}
+main {
+  min-height: 80vh;
+  border: 1px solid black;
+}
+footer {
+  min-height: 10vh;
+  border: 1px solid black;
+}
